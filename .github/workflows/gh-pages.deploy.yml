@@ -19,10 +19,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install packages
         run: yarn install --frozen-lockfile
-      - name: Build project
+      - name: Build project and export static files
         run: npm run build
-      - name: Export static files
-        run: npm run export
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
       - name: Deploy
