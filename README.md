@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 and bundled with [MUI](https://mui.com/material-ui/getting-started/learn/) and [Redux-Toolkit](https://github.com/reduxjs/redux-toolkit)
-## Getting Started
+
+### Getting Started
 
 First, run the development server:
 
@@ -24,10 +25,13 @@ yarn build
 ```
 This can be run standalone without the need of a Node.js server
 
-## Learn More
+### Learn More
 
 To learn more, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Redux-Toolkit Introduction](https://redux-toolkit.js.org/introduction/getting-started)
 - [MUI Getting Started](https://mui.com/material-ui/getting-started/learn/)
+
+### Preview
+[![preview](preview.jpg)](https://rosealexander.github.io/nextjs-mui-redux-template/)
