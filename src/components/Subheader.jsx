@@ -9,7 +9,10 @@ const Subheader = () => {
   return (
     <Grid container justifyContent='center'>
       <Grid item>
-        <Box width={500}>
+        <Box
+          width={500}
+          maxWidth='85vw'
+        >
           <Divider>
             <Typography variant='h3'>
               {value.label}

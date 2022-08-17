@@ -15,6 +15,7 @@ const Page = memo(({header, subheader, body, footer}) => {
         height='100vh'
         minWidth={350}
         py={3}
+        px={1}
       >
         <Grid
           container

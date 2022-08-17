@@ -1,4 +1,5 @@
 import {Grid, Typography} from "@mui/material";
+import Box from "@mui/material/Box";
 
 const Blog = ({timestamp, header, image, content}) => {
   return (
@@ -31,7 +32,9 @@ const Blog = ({timestamp, header, image, content}) => {
               justifyContent='center'
             >
               <Grid item>
-                {image}
+                <Box maxWidth='100%'>
+                  {image}
+                </Box>
               </Grid>
             </Grid>
           </Grid>

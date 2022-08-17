@@ -59,8 +59,7 @@ const Footer = () => {
             color="textSecondary"
           >
             <small>
-              This is a free work, you can copy, distribute, and<br />
-              modify it under the terms of the <Link href={"https://artlibre.org/licence/lal/en/"}>Free Art License</Link>
+              This is a free work, you can copy, distribute, and modify it under the terms of the <Link href={"https://artlibre.org/licence/lal/en/"}>Free Art License</Link>
             </small>
           </Typography>
         </Grid>
